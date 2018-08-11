@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var a = 5;
 var b = 3;
 var n = 411.1;
@@ -32,4 +33,11 @@ function makeInt(n) {
 
 function preserveDecimal(n) {
   return parseFloat(n, 10);
+=======
+var a = 5
+var b = 3
+
+function add() {
+  return a += b
+>>>>>>> f78eb33a61a2679a0301afd1a7a5a1eca3fbcb62
 }
